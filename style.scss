@@ -1,0 +1,71 @@
+/*
+Theme Name: $sitio
+Author: Carlos Isaias Ruiz
+Author URL: http://zimoo354.mx
+Description: The 2017 theme for $sitio is a fully responsive theme that looks great on any device.
+Version: 1.0
+License: Propietary Software rights
+Text Domain: $sitio
+*/
+
+/* Variables */
+
+$font: '';
+$sfont: '';
+
+/* Variables */
+
+/* General */
+
+section,.section-div{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	display: block;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+.pad-und-lg{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.pad-und-md{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.pad-und-sm{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.pad-und-xs{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.display-none {
+	display: none;
+}
+
+/* General */
+
+/* Mixins */
+
+@mixin bgcover {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+@mixin flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Mixins */
+
+
